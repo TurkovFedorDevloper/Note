@@ -13,7 +13,7 @@ interface NotesKotlinDao {
     fun getAllNotes(): LiveData<List<NoteKotlin>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun insertNote(note: NoteKotlin): Completable
+    fun insertNote(note: NoteKotlin)
 
     @Delete
     fun deleteNote(note: NoteKotlin)
