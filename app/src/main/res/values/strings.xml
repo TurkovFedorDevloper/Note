@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">TODOnote</string>
     <string name="worning_fill_fills">Все поля должны быть заполнены!</string>
+    <string name="todo">TODO</string>
     <string-array name="days_of_week">
         <item>Понедельник</item>
         <item>Вторник</item>
